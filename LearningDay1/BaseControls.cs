@@ -29,6 +29,7 @@ namespace LearningDay1
         {
             Console.WriteLine("金额{0,4:C3}", TestD);
             Console.Write((int)TestF.morning);
+            Console.WriteLine("{0,#.1111}", TestC1);//测试
             Console.ReadKey();//等待输入，若没有这句，则窗体闪现
         }
     }
