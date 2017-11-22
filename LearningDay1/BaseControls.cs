@@ -28,8 +28,13 @@ namespace LearningDay1
         public static void Main ()
         {
             Console.WriteLine("金额{0,4:C3}", TestD);
-            Console.Write((int)TestF.morning);
-            Console.WriteLine("{0,#.1111}", TestC1);//测试
+            Console.WriteLine((int)TestF.morning);
+            Console.WriteLine("{0:#.000}", TestC1);//测试占位符
+            //ConsoleInput.InputInt();
+            //ConsoleInput.InputString();
+            //ConsoleInput.InputArray();
+            //ConsoleInput.InputCompos();
+            ConsoleInput.InputCompos1();
             Console.ReadKey();//等待输入，若没有这句，则窗体闪现
         }
     }
