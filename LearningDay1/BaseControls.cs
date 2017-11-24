@@ -1,5 +1,7 @@
 ﻿using System;//引用命名空间
-
+/// <summary>
+/// C#基础
+/// </summary>
 namespace LearningDay1
 {
     /// <summary>

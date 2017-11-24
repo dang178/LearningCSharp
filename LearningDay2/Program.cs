@@ -1,5 +1,7 @@
 ﻿using System;
-
+/// <summary>
+/// 对象和类型
+/// </summary>
 namespace LearningDay2
 {
     struct TestA    //结构体
