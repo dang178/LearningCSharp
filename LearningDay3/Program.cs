@@ -84,25 +84,28 @@ namespace LearningDay3
             //TestD d = new TestD();
             //Console.WriteLine(c.add());
             //Console.WriteLine(d.add());
-            LinkList linkList = new LinkList();
-            linkList.AddLastNode(1);
-            linkList.AddLastNode(2);
-            linkList.AddLastNode(3);
-            linkList.AddLastNode(4);
-            foreach (int node in linkList)
-            {
-                Console.Write("{0}\t", node);
-            }
-            Console.WriteLine();
-            LinkList<string> linkList1 = new LinkList<string>();
-            linkList1.AddLastNode("a");
-            linkList1.AddLastNode("b");
-            linkList1.AddLastNode("c");
-            linkList1.AddLastNode("d");
-            foreach (string node in linkList1)
-            {
-                Console.Write("{0}\t", node);
-            }
+            //链表
+            //LinkList linkList = new LinkList();
+            //linkList.AddLastNode(1);
+            //linkList.AddLastNode(2);
+            //linkList.AddLastNode(3);
+            //linkList.AddLastNode(4);
+            //foreach (int node in linkList)
+            //{
+            //    Console.Write("{0}\t", node);
+            //}
+            //Console.WriteLine();
+            //LinkList<string> linkList1 = new LinkList<string>();
+            //linkList1.AddLastNode("a");
+            //linkList1.AddLastNode("b");
+            //linkList1.AddLastNode("c");
+            //linkList1.AddLastNode("d");
+            //foreach (string node in linkList1)
+            //{
+            //    Console.Write("{0}\t", node);
+            //}
+            ArraySample.NewArray();
+
             Console.ReadKey();
         }
     }
